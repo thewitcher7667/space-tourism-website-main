@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./crew.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <script defer src="index.js"></script>
     <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
@@ -25,10 +26,30 @@
                 <section class="rectanglesmall">
                 </section>
 
-
-                <div class="elements">
+                <div class="svg">
+                    <button id="svg" onclick="mob()">
+                        <svg width="24px" height="21px" viewBox="0 0 24 21" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Group">
+                                <path d="M0 0L24 0L24 3L0 3L0 0Z" id="Rectangle" fill="#D0D6F9" fill-rule="evenodd" stroke="none" />
+                                <path d="M0 9L24 9L24 12L0 12L0 9Z" id="Rectangle-Copy" fill="#D0D6F9" fill-rule="evenodd" stroke="none" />
+                                <path d="M0 18L24 18L24 21L0 21L0 18Z" id="Rectangle-Copy-2" fill="#D0D6F9" fill-rule="evenodd" stroke="none" />
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <div class="elements" id="elements">
 
                     <div class="elementsrect">
+                        <div style="display:none;" id="closee">
+                            <button class="close" id="close" onclick="mobclose()">
+                                <svg width="19.091797px" height="19.091797px" viewBox="0 0 19.091797 19.091797" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Group">
+                                        <path d="M2.12109 0L19.0917 16.9706L16.9703 19.0919L-0.000226498 2.12132L2.12109 0Z" id="Rectangle-Copy" fill="#D0D6F9" fill-rule="evenodd" stroke="none" />
+                                        <path d="M0 16.9705L16.9706 -0.000102997L19.0919 2.12122L2.12132 19.0918L0 16.9705Z" id="Rectangle-Copy-3" fill="#D0D6F9" fill-rule="evenodd" stroke="none" />
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
                         <div><a id="home" href="./index.html"> 00 Home</a></div>
                         <div> <a id="dest" href="./destination-moon.html"> 01 Destination</a></div>
                         <div> <a id="crew" href="./crew-commander.html"> 02 Crew</a></div>
@@ -40,19 +61,31 @@
 
             </header>
             <!--------------------------------------------------------------------------------------------------------------------------------->
+            <div class="moontxtleft">
+                <h2>
+                    02 Meet your crew
+                </h2>
+            </div>
             <section class="parttwo grid-container">
                 <section class="prtright">
+
                     <div class="imgright">
-                        <img src="./assets/crew/image-mark-shuttleworth.webp" style="height:690px;" alt="commander" />
+                        <img src="./assets/crew/image-mark-shuttleworth.webp" style="width: 70%; height: 690px;" alt="commander" />
                     </div>
+                    <section class="who">
+                        <div class="whobox">
+
+                            <div><a href="./crew-commander.html"><div class="lol"></div></a></div>
+                            <div><a href="./crew-specialist.html"><div class="lol"></div></a></div>
+                            <div><a href="./crew-pilot.html"><div class="lol"></div></a></div>
+                            <div><a href="./crew-engineer.html"><div class="lol"></div> </a></div>
+
+                        </div>
+                    </section>
                 </section>
 
                 <section class="prtleft">
-                    <div class="moontxtleft">
-                        <h2>
-                            02 Meet your crew
-                        </h2>
-                    </div>
+
                     <h3>
                         Mission Specialist
                     </h3>
@@ -72,16 +105,7 @@
 
                         </section>
                     </section>
-                    <section class="who">
-                        <div class="whobox">
 
-                            <div><a href="./crew-commander.html"><div class="lol"></div></a></div>
-                            <div><a href="./crew-specialist.html"><div class="lol"></div></a></div>
-                            <div><a href="./crew-pilot.html"><div class="lol"></div></a></div>
-                            <div><a href="./crew-engineer.html"><div class="lol"></div> </a></div>
-
-                        </div>
-                    </section>
 
                 </section>
             </section>
