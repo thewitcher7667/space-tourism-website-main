@@ -92,7 +92,7 @@ body {
             text-decoration-thickness: 5px;
         }
 
-        .headrectangle a:is(:active,:link,:visited ).active {
+        .headrectangle a:is(:active,:link,:visited ).nw {
             text-decoration-line: underline;
             text-decoration-thickness: 2px;
             text-decoration-color: rgb(255, 255, 255);
@@ -359,7 +359,7 @@ body {
             text-decoration-thickness: 5px;
         }
 
-        .headrectangle a:is(:active,:link,:visited ).active {
+        .headrectangle a:is(:active,:link,:visited ).nw {
             text-decoration-line: underline;
             text-decoration-thickness: 2px;
             text-decoration-color: rgb(255, 255, 255);

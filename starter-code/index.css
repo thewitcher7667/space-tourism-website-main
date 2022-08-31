@@ -480,30 +480,6 @@ body{
         text-decoration: none;
     }
 
-    /*    .headrectangle a:hover {
-            text-decoration-line: underline;
-            text-decoration-thickness: 2px;
-            text-decoration-color: rgb(255, 255, 255, 0.103627525);
-            text-underline-offset: 35px;
-            text-decoration-thickness: 5px;
-        }
-
-        .headrectangle a:is(:active,:link,:visited ).active {
-            text-decoration-line: underline;
-            text-decoration-thickness: 2px;
-            text-decoration-color: rgb(255, 255, 255);
-            text-underline-offset: 35px;
-            text-decoration-thickness: 5px;
-        }*/
-/*
-    .rectanglesmall {
-        opacity: 0.2514852;
-        width: 45%;
-        height: 1px;
-        background: #ffffff;
-        background-blend-mode: normal;
-    }*/
-
     .oval {
         width: 10%;
         margin-left: 30px;
@@ -692,30 +668,6 @@ body{
         margin-right: 0px;
         text-decoration: none;
     }
-
-    /*    .headrectangle a:hover {
-            text-decoration-line: underline;
-            text-decoration-thickness: 2px;
-            text-decoration-color: rgb(255, 255, 255, 0.103627525);
-            text-underline-offset: 35px;
-            text-decoration-thickness: 5px;
-        }
-
-        .headrectangle a:is(:active,:link,:visited ).active {
-            text-decoration-line: underline;
-            text-decoration-thickness: 2px;
-            text-decoration-color: rgb(255, 255, 255);
-            text-underline-offset: 35px;
-            text-decoration-thickness: 5px;
-        }*/
-    /*
-    .rectanglesmall {
-        opacity: 0.2514852;
-        width: 45%;
-        height: 1px;
-        background: #ffffff;
-        background-blend-mode: normal;
-    }*/
 
     .oval {
         width: 10%;
